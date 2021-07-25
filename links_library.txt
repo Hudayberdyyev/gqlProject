@@ -1,3 +1,5 @@
 go get github.com/99designs/gqlgen  ----   gqlgen download
 github.com/vektah/gqlparser/v2 		----   gqlparser
 go get github.com/go-pg/pg/v10  	----   PostgreSQL client and ORM for Golang
+go run github.com/vektah/dataloaden UserLoader string '*github.com/Hudayberdyyev/gqlProject/graph/models.User'
+---- dataloaden
